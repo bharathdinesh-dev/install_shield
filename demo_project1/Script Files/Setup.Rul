@@ -87,7 +87,7 @@ Dlg_SdRegisterUser:
     szMsg = "";
     szTitle = "";
     //{{IS_SCRIPT_TAG(Dlg_SdRegisterUser)	
-    //nResult = SdRegisterUser( szTitle, szMsg, szName, szCompany );
+    nResult = SdRegisterUser( szTitle, szMsg, szName, szCompany );
     //}}IS_SCRIPT_TAG(Dlg_SdRegisterUser)
     if (nResult = BACK) goto Dlg_SdLicense2;
 
@@ -119,7 +119,7 @@ Dlg_SdAskDestPath2:
     szMsg = "";
     if (nSetupType = CUSTOM) then
                 //{{IS_SCRIPT_TAG(Dlg_SdAskDestPath2)	
-		//nResult = SdAskDestPath2( szTitle, szMsg, szDir );
+		nResult = SdAskDestPath2( szTitle, szMsg, szDir );
                 //}}IS_SCRIPT_TAG(Dlg_SdAskDestPath2)
         TARGETDIR = szDir;
     endif;
