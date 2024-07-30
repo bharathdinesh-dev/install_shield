@@ -73,6 +73,11 @@
 		<col key="yes" def="s72">Name</col>
 		<col def="V0">Data</col>
 		<col def="S255">ISBuildSourcePath</col>
+		<row><td>NewBinary1</td><td/><td>&lt;ISProjectDataFolder&gt;\IconId_10006.ico</td></row>
+		<row><td>NewBinary2</td><td/><td>&lt;ISProductFolder&gt;Script\Dialogs\IconId_10005.ico</td></row>
+		<row><td>NewBinary3</td><td/><td>&lt;ISProductFolder&gt;Script\Dialogs\IconId_10003.ico</td></row>
+		<row><td>NewBinary4</td><td/><td>&lt;ISProductFolder&gt;Script\Dialogs\IconId_10002.ico</td></row>
+		<row><td>NewBinary5</td><td/><td>&lt;ISProductFolder&gt;Script\Dialogs\IconId_10004.ico</td></row>
 	</table>
 
 	<table name="CheckBox">
@@ -123,28 +128,279 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="S72">Binary_</col>
 		<row><td>DialogId_10205</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
-		<row><td>DialogId_10205</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_12##</td><td>ControlId_50</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_10205</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>1</td><td/><td>##IDS__DialogId_10205_ControlId_12##</td><td>ControlId_50</td><td/><td>0</td><td>12</td><td/><td/></row>
 		<row><td>DialogId_10205</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_1200##</td><td>ControlId_202</td><td/><td>131072</td><td>1200</td><td/><td/></row>
 		<row><td>DialogId_10205</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_10205_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
-		<row><td>DialogId_10205</td><td>ControlId_202</td><td>Text</td><td>135</td><td>147</td><td>310</td><td>40</td><td>196611</td><td/><td>##IDS__DialogId_10205_ControlId_202##</td><td>ControlId_1</td><td/><td>131072</td><td>202</td><td/><td/></row>
-		<row><td>DialogId_10205</td><td>ControlId_50</td><td>Text</td><td>135</td><td>116</td><td>310</td><td>16</td><td>65539</td><td/><td>##IDS__DialogId_10205_ControlId_50##</td><td>ControlId_1200</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_10205</td><td>ControlId_202</td><td>Text</td><td>150</td><td>138</td><td>310</td><td>40</td><td>196611</td><td/><td>##IDS__DialogId_10205_ControlId_202##</td><td>ControlId_1</td><td/><td>131072</td><td>202</td><td/><td/></row>
+		<row><td>DialogId_10205</td><td>ControlId_50</td><td>Text</td><td>150</td><td>198</td><td>310</td><td>16</td><td>65539</td><td/><td>##IDS__DialogId_10205_ControlId_50##</td><td>ControlId_1200</td><td/><td>131072</td><td>50</td><td/><td/></row>
 		<row><td>DialogId_10205</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>ControlId_1</td><td>PushButton</td><td>282</td><td>284</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>ControlId_12</td><td>PushButton</td><td>223</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_12##</td><td>ControlId_1300</td><td/><td>0</td><td>12</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>ControlId_1300</td><td>Line</td><td>0</td><td>274</td><td>460</td><td>1</td><td>1</td><td/><td/><td>ControlId_50</td><td/><td>131079</td><td>1300</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>ControlId_202</td><td>Text</td><td>26</td><td>75</td><td>85</td><td>14</td><td>196611</td><td/><td>##IDS__DialogId_10205_ControlId_202##</td><td>Text1</td><td/><td>131072</td><td>202</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>ControlId_50</td><td>Text</td><td>17</td><td>9</td><td>132</td><td>22</td><td>327683</td><td/><td>##IDS__DialogId_10205_ControlId_50##</td><td>ControlId_202</td><td/><td>131072</td><td>50</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>ControlId_9</td><td>PushButton</td><td>340</td><td>284</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Edit1</td><td>Edit</td><td>58</td><td>94</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Edit2</td><td/><td>0</td><td>1306</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Edit2</td><td>Edit</td><td>57</td><td>134</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Edit3</td><td/><td>0</td><td>1307</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Edit3</td><td>Edit</td><td>57</td><td>172</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Text2</td><td/><td>0</td><td>1308</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Edit4</td><td>Edit</td><td>57</td><td>210</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Text5</td><td/><td>0</td><td>1309</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Edit5</td><td>Edit</td><td>55</td><td>249</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Edit1</td><td/><td>0</td><td>1311</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Text1</td><td>Text</td><td>25</td><td>155</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING15##</td><td>Text4</td><td/><td>131072</td><td>1304</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Text2</td><td>Text</td><td>25</td><td>194</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING16##</td><td>Edit4</td><td/><td>131072</td><td>1305</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Text3</td><td>Text</td><td>25</td><td>118</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING17##</td><td>ControlId_1</td><td/><td>131072</td><td>1306</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Text4</td><td>Text</td><td>25</td><td>232</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING19##</td><td>Edit5</td><td/><td>131072</td><td>1310</td><td/><td/></row>
-		<row><td>DialogId_102051</td><td>Text5</td><td>Text</td><td>77</td><td>42</td><td>241</td><td>22</td><td>65539</td><td/><td>##NEW_STRING20##</td><td>Text3</td><td/><td>0</td><td>1312</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12005_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12005_ControlId_12##</td><td>ControlId_718</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12005_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_196</td><td>PushButton</td><td>390</td><td>231</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12005_ControlId_196##</td><td>ControlId_12</td><td/><td>0</td><td>196</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12005_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12005_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12005_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_715</td><td>Text</td><td>141</td><td>235</td><td>240</td><td>8</td><td>131075</td><td/><td>##IDS__DialogId_12005_ControlId_715##</td><td>ControlId_50</td><td/><td>131072</td><td>715</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_718</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>80</td><td>131075</td><td/><td>##IDS__DialogId_12005_ControlId_718##</td><td>ControlId_715</td><td/><td>131072</td><td>718</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12005_ControlId_9##</td><td>ControlId_196</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12005</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>135</td><td>220</td><td>310</td><td>32</td><td>3</td><td/><td>##IDS__DialogId_12005_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12006</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12006_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12006</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>1</td><td/><td>##IDS__DialogId_12006_ControlId_12##</td><td>ControlId_710</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12006</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12006_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12006</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12006_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12006</td><td>ControlId_50</td><td>Text</td><td>135</td><td>116</td><td>310</td><td>28</td><td>196611</td><td/><td>##IDS__DialogId_12006_ControlId_50##</td><td>ControlId_1200</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12006</td><td>ControlId_710</td><td>Text</td><td>135</td><td>147</td><td>310</td><td>40</td><td>196611</td><td/><td>##IDS__DialogId_12006_ControlId_710##</td><td>ControlId_50</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12006</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12006_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12009_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12009_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12009_ControlId_1200##</td><td>ControlId_501</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_196</td><td>PushButton</td><td>388</td><td>242</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12009_ControlId_196##</td><td>ControlId_12</td><td/><td>131072</td><td>196</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12009_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12009_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_501</td><td>RadioButtonGroup</td><td>135</td><td>82</td><td>41</td><td>91</td><td>3</td><td>Typical</td><td/><td>ControlId_196</td><td/><td>131072</td><td>501</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>196611</td><td/><td>##IDS__DialogId_12009_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_701</td><td>Text</td><td>187</td><td>82</td><td>255</td><td>32</td><td>131075</td><td/><td>##IDS__DialogId_12009_ControlId_701##</td><td>ControlId_702</td><td/><td>131072</td><td>701</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_702</td><td>Text</td><td>187</td><td>125</td><td>255</td><td>32</td><td>131075</td><td/><td>##IDS__DialogId_12009_ControlId_702##</td><td>ControlId_703</td><td/><td>131072</td><td>702</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_703</td><td>Text</td><td>187</td><td>162</td><td>255</td><td>32</td><td>131075</td><td/><td>##IDS__DialogId_12009_ControlId_703##</td><td>ControlId_715</td><td/><td>131072</td><td>703</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_710</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>25</td><td>196611</td><td/><td>##IDS__DialogId_12009_ControlId_710##</td><td>ControlId_701</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_715</td><td>Text</td><td>141</td><td>244</td><td>226</td><td>12</td><td>131075</td><td/><td>##IDS__DialogId_12009_ControlId_715##</td><td>ControlId_50</td><td/><td>131072</td><td>715</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12009_ControlId_9##</td><td>ControlId_710</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12009</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>135</td><td>233</td><td>310</td><td>27</td><td>3</td><td/><td>##IDS__DialogId_12009_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12011_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12011_ControlId_12##</td><td>ControlId_710</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12011_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12011_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12011_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12011_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_702</td><td>Text</td><td>135</td><td>72</td><td>310</td><td>8</td><td>2</td><td/><td>##IDS__DialogId_12011_ControlId_702##</td><td>ControlId_752</td><td/><td>0</td><td>702</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_703</td><td>Text</td><td>135</td><td>115</td><td>310</td><td>8</td><td>2</td><td/><td>##IDS__DialogId_12011_ControlId_703##</td><td>ControlId_753</td><td/><td>0</td><td>703</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_704</td><td>Text</td><td>135</td><td>154</td><td>310</td><td>8</td><td>2</td><td/><td>##IDS__DialogId_12011_ControlId_704##</td><td>ControlId_754</td><td/><td>0</td><td>704</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_710</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>16</td><td>131075</td><td/><td>##IDS__DialogId_12011_ControlId_710##</td><td>ControlId_702</td><td/><td>0</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_752</td><td>Text</td><td>135</td><td>85</td><td>310</td><td>24</td><td>2</td><td/><td>##IDS__DialogId_12011_ControlId_752##</td><td>ControlId_703</td><td/><td>131072</td><td>752</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_753</td><td>Text</td><td>135</td><td>126</td><td>310</td><td>24</td><td>2</td><td/><td>##IDS__DialogId_12011_ControlId_753##</td><td>ControlId_704</td><td/><td>131072</td><td>753</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_754</td><td>Text</td><td>135</td><td>167</td><td>310</td><td>24</td><td>2</td><td/><td>##IDS__DialogId_12011_ControlId_754##</td><td>ControlId_50</td><td/><td>131072</td><td>754</td><td/><td/></row>
+		<row><td>DialogId_12011</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12011_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12021_ControlId_1200##</td><td>ControlId_50</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_195</td><td>PushButton</td><td>395</td><td>234</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_195##</td><td>ControlId_12</td><td/><td>131072</td><td>195</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_196</td><td>PushButton</td><td>390</td><td>206</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_196##</td><td>ControlId_195</td><td/><td>131072</td><td>196</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12021_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_401</td><td>Text</td><td>135</td><td>70</td><td>310</td><td>125</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_401##</td><td>ControlId_715</td><td/><td>131072</td><td>401</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12021_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12021_ControlId_51##</td><td>ControlId_711</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_711</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>16</td><td>131075</td><td/><td>##IDS__DialogId_12021_ControlId_711##</td><td>ControlId_401</td><td/><td>131072</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_715</td><td>Text</td><td>141</td><td>209</td><td>228</td><td>10</td><td>131075</td><td/><td>##IDS__DialogId_12021_ControlId_715##</td><td>ControlId_196</td><td/><td>131072</td><td>715</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_716</td><td>Text</td><td>239</td><td>230</td><td>69</td><td>8</td><td>67</td><td/><td>##IDS__DialogId_12021_ControlId_716##</td><td>ControlId_722</td><td/><td>131072</td><td>716</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_717</td><td>Text</td><td>239</td><td>242</td><td>69</td><td>8</td><td>67</td><td/><td>##IDS__DialogId_12021_ControlId_717##</td><td>ControlId_716</td><td/><td>131072</td><td>717</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_722</td><td>Text</td><td>199</td><td>230</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_722##</td><td>ControlId_723</td><td/><td>131072</td><td>722</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_723</td><td>Text</td><td>199</td><td>242</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_723##</td><td>ControlId_1200</td><td/><td>131072</td><td>723</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_9##</td><td>ControlId_Negative1_2</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>135</td><td>198</td><td>310</td><td>26</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_Negative1_2</td><td>Text</td><td>135</td><td>230</td><td>62</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_Negative1_2##</td><td>ControlId_Negative1_3</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12021</td><td>ControlId_Negative1_3</td><td>Text</td><td>135</td><td>242</td><td>62</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12021_ControlId_Negative1_3##</td><td>ControlId_717</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12022_ControlId_1200##</td><td>ControlId_401</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_195</td><td>PushButton</td><td>395</td><td>234</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_195##</td><td>ControlId_12</td><td/><td>131072</td><td>195</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_196</td><td>PushButton</td><td>390</td><td>206</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_196##</td><td>ControlId_195</td><td/><td>131072</td><td>196</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12022_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_401</td><td>Text</td><td>135</td><td>71</td><td>310</td><td>125</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_401##</td><td>ControlId_710</td><td/><td>131072</td><td>401</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12022_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12022_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_710</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>16</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_710##</td><td>ControlId_715</td><td/><td>0</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_715</td><td>Text</td><td>141</td><td>209</td><td>236</td><td>10</td><td>131075</td><td/><td>##IDS__DialogId_12022_ControlId_715##</td><td>ControlId_Negative1_2</td><td/><td>0</td><td>715</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_716</td><td>Text</td><td>239</td><td>230</td><td>69</td><td>8</td><td>67</td><td/><td>##IDS__DialogId_12022_ControlId_716##</td><td>ControlId_196</td><td/><td>131072</td><td>716</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_717</td><td>Text</td><td>239</td><td>241</td><td>69</td><td>8</td><td>67</td><td/><td>##IDS__DialogId_12022_ControlId_717##</td><td>ControlId_716</td><td/><td>131072</td><td>717</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_722</td><td>Text</td><td>199</td><td>230</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_722##</td><td>ControlId_723</td><td/><td>131072</td><td>722</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_723</td><td>Text</td><td>199</td><td>242</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_723##</td><td>ControlId_50</td><td/><td>131072</td><td>723</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_9##</td><td>ControlId_722</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>135</td><td>198</td><td>310</td><td>26</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_Negative1_2</td><td>Text</td><td>135</td><td>230</td><td>62</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_Negative1_2##</td><td>ControlId_Negative1_3</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12022</td><td>ControlId_Negative1_3</td><td>Text</td><td>135</td><td>242</td><td>62</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12022_ControlId_Negative1_3##</td><td>ControlId_717</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12024_ControlId_1200##</td><td>ControlId_401</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_197</td><td>PushButton</td><td>395</td><td>203</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_197##</td><td>ControlId_12</td><td/><td>131072</td><td>197</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12024_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_401</td><td>Text</td><td>135</td><td>74</td><td>186</td><td>153</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_401##</td><td>ControlId_197</td><td/><td>131072</td><td>401</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12024_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12024_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_711</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>16</td><td>131075</td><td/><td>##IDS__DialogId_12024_ControlId_711##</td><td>ControlId_Negative1_2</td><td/><td>131072</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_712</td><td>Text</td><td>337</td><td>84</td><td>102</td><td>105</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_712##</td><td>ControlId_711</td><td/><td>131072</td><td>712</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_716</td><td>Text</td><td>239</td><td>232</td><td>69</td><td>9</td><td>67</td><td/><td>##IDS__DialogId_12024_ControlId_716##</td><td>ControlId_722</td><td/><td>131072</td><td>716</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_717</td><td>Text</td><td>239</td><td>242</td><td>69</td><td>9</td><td>67</td><td/><td>##IDS__DialogId_12024_ControlId_717##</td><td>ControlId_716</td><td/><td>131072</td><td>717</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_722</td><td>Text</td><td>201</td><td>232</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_722##</td><td>ControlId_723</td><td/><td>131072</td><td>722</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_723</td><td>Text</td><td>201</td><td>242</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_723##</td><td>ControlId_50</td><td/><td>131072</td><td>723</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_9##</td><td>ControlId_712</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>331</td><td>74</td><td>114</td><td>121</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_Negative1_2</td><td>Text</td><td>135</td><td>232</td><td>62</td><td>9</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_Negative1_2##</td><td>ControlId_Negative1_3</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12024</td><td>ControlId_Negative1_3</td><td>Text</td><td>135</td><td>242</td><td>62</td><td>9</td><td>3</td><td/><td>##IDS__DialogId_12024_ControlId_Negative1_3##</td><td>ControlId_717</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12025_ControlId_1200##</td><td>ControlId_401</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12025_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_401</td><td>Text</td><td>135</td><td>69</td><td>155</td><td>103</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_401##</td><td>ControlId_402</td><td/><td>131072</td><td>401</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_402</td><td>Text</td><td>297</td><td>69</td><td>148</td><td>103</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_402##</td><td>ControlId_12</td><td/><td>131072</td><td>402</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12025_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12025_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_711</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>16</td><td>131075</td><td/><td>##IDS__DialogId_12025_ControlId_711##</td><td>ControlId_Negative1_2</td><td/><td>131072</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_712</td><td>Text</td><td>141</td><td>186</td><td>299</td><td>37</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_712##</td><td>ControlId_711</td><td/><td>131072</td><td>712</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_716</td><td>Text</td><td>241</td><td>230</td><td>69</td><td>9</td><td>67</td><td/><td>##IDS__DialogId_12025_ControlId_716##</td><td>ControlId_50</td><td/><td>131072</td><td>716</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_717</td><td>Text</td><td>241</td><td>241</td><td>69</td><td>9</td><td>67</td><td/><td>##IDS__DialogId_12025_ControlId_717##</td><td>ControlId_716</td><td/><td>131072</td><td>717</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_722</td><td>Text</td><td>201</td><td>230</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_722##</td><td>ControlId_723</td><td/><td>131072</td><td>722</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_723</td><td>Text</td><td>201</td><td>241</td><td>9</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_723##</td><td>ControlId_717</td><td/><td>131072</td><td>723</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_9##</td><td>ControlId_712</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>135</td><td>174</td><td>310</td><td>50</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_Negative1_2</td><td>Text</td><td>135</td><td>230</td><td>62</td><td>9</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_Negative1_2##</td><td>ControlId_Negative1_3</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12025</td><td>ControlId_Negative1_3</td><td>Text</td><td>135</td><td>241</td><td>62</td><td>9</td><td>3</td><td/><td>##IDS__DialogId_12025_ControlId_Negative1_3##</td><td>ControlId_722</td><td/><td>131072</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12027</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12027_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12027</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12027_ControlId_12##</td><td>ControlId_711</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12027</td><td>ControlId_1200</td><td>Text</td><td>10</td><td>9</td><td>440</td><td>231</td><td>3</td><td/><td>##IDS__DialogId_12027_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12027</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12027_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12027</td><td>ControlId_711</td><td>Text</td><td>10</td><td>255</td><td>435</td><td>10</td><td>0</td><td/><td>##IDS__DialogId_12027_ControlId_711##</td><td>ControlId_1200</td><td/><td>131073</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12027</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12027_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_10</td><td>PushButton</td><td>395</td><td>229</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12029_ControlId_10##</td><td>ControlId_50</td><td/><td>0</td><td>10</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12029_ControlId_12##</td><td>ControlId_6</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>37</td><td>120</td><td>240</td><td>3</td><td/><td>##IDS__DialogId_12029_ControlId_1200##</td><td>ControlId_301</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12029_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_301</td><td>Edit</td><td>135</td><td>73</td><td>310</td><td>151</td><td>16842755</td><td/><td/><td>ControlId_12</td><td/><td>2230272</td><td>301</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12029_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12029_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_6</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12029_ControlId_6##</td><td>ControlId_9</td><td/><td>0</td><td>6</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_711</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>16</td><td>131075</td><td/><td>##IDS__DialogId_12029_ControlId_711##</td><td>ControlId_712</td><td/><td>131072</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_712</td><td>Text</td><td>135</td><td>229</td><td>230</td><td>34</td><td>131075</td><td/><td>##IDS__DialogId_12029_ControlId_712##</td><td>ControlId_10</td><td/><td>131072</td><td>712</td><td/><td/></row>
+		<row><td>DialogId_12029</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12029_ControlId_9##</td><td>ControlId_711</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12033_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12033_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12033_ControlId_1200##</td><td>ControlId_401</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12033_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_401</td><td>ListBox</td><td>135</td><td>63</td><td>179</td><td>120</td><td>16777219</td><td/><td/><td>ControlId_710</td><td/><td>2097411</td><td>401</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12033_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>196611</td><td/><td>##IDS__DialogId_12033_ControlId_51##</td><td>ControlId_12</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_710</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>9</td><td>131075</td><td/><td>##IDS__DialogId_12033_ControlId_710##</td><td>ControlId_711</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_711</td><td>Text</td><td>328</td><td>72</td><td>111</td><td>104</td><td>131075</td><td/><td/><td>ControlId_50</td><td/><td>131072</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12033_ControlId_9##</td><td>ControlId_1200</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12033</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>320</td><td>61</td><td>126</td><td>122</td><td>3</td><td/><td>##IDS__DialogId_12033_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12052_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_1000</td><td>SelectionTree</td><td>135</td><td>71</td><td>190</td><td>160</td><td>16777219</td><td/><td>##IDS__DialogId_12052_ControlId_1000##</td><td>ControlId_12</td><td/><td>1350635527</td><td>1000</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12052_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12052_ControlId_1200##</td><td>ControlId_1000</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12052_ControlId_2##</td><td/><td/><td>0</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12052_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12052_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_711</td><td>Text</td><td>135</td><td>51</td><td>310</td><td>16</td><td>131075</td><td/><td>##IDS__DialogId_12052_ControlId_711##</td><td>ControlId_722</td><td/><td>131072</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_712</td><td>Text</td><td>338</td><td>82</td><td>99</td><td>139</td><td>3</td><td/><td>##IDS__DialogId_12052_ControlId_712##</td><td>ControlId_711</td><td/><td>131072</td><td>712</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_722</td><td>Text</td><td>135</td><td>232</td><td>307</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12052_ControlId_722##</td><td>ControlId_723</td><td/><td>131072</td><td>722</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_723</td><td>Text</td><td>135</td><td>242</td><td>307</td><td>8</td><td>3</td><td/><td>##IDS__DialogId_12052_ControlId_723##</td><td>ControlId_50</td><td/><td>131072</td><td>723</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12052_ControlId_9##</td><td>ControlId_712</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12052</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>330</td><td>69</td><td>115</td><td>160</td><td>3</td><td/><td>##IDS__DialogId_12052_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12053_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_1001</td><td>Icon</td><td>149</td><td>91</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1002</td><td/><td>0</td><td>1001</td><td/><td>NewBinary3</td></row>
+		<row><td>DialogId_12053</td><td>ControlId_1002</td><td>Icon</td><td>149</td><td>143</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1003</td><td/><td>0</td><td>1002</td><td/><td>NewBinary4</td></row>
+		<row><td>DialogId_12053</td><td>ControlId_1003</td><td>Icon</td><td>149</td><td>195</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1</td><td/><td>0</td><td>1003</td><td/><td>NewBinary5</td></row>
+		<row><td>DialogId_12053</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12053_ControlId_12##</td><td>ControlId_50</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>3</td><td/><td>##IDS__DialogId_12053_ControlId_1200##</td><td>ControlId_710</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12053_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_301</td><td>RadioButtonGroup</td><td>135</td><td>79</td><td>124</td><td>113</td><td>3</td><td>_Modify</td><td/><td>ControlId_701</td><td/><td>0</td><td>301</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12053_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>196611</td><td/><td>##IDS__DialogId_12053_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_701</td><td>Text</td><td>180</td><td>94</td><td>265</td><td>24</td><td>131075</td><td/><td>##IDS__DialogId_12053_ControlId_701##</td><td>ControlId_702</td><td/><td>131072</td><td>701</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_702</td><td>Text</td><td>180</td><td>146</td><td>265</td><td>24</td><td>131075</td><td/><td>##IDS__DialogId_12053_ControlId_702##</td><td>ControlId_703</td><td/><td>131072</td><td>702</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_703</td><td>Text</td><td>180</td><td>197</td><td>265</td><td>24</td><td>131075</td><td/><td>##IDS__DialogId_12053_ControlId_703##</td><td>ControlId_1001</td><td/><td>131072</td><td>703</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_710</td><td>Text</td><td>135</td><td>51</td><td>310</td><td>24</td><td>131075</td><td/><td>##IDS__DialogId_12053_ControlId_710##</td><td>ControlId_301</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12053</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12053_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12056</td><td>ControlId_1</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12056_ControlId_1##</td><td>ControlId_1004</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12056</td><td>ControlId_1004</td><td>ListView</td><td>135</td><td>50</td><td>310</td><td>111</td><td>16777219</td><td/><td>##IDS__DialogId_12056_ControlId_1004##</td><td>ControlId_710</td><td/><td>1350631425</td><td>1004</td><td/><td/></row>
+		<row><td>DialogId_12056</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12056_ControlId_1200##</td><td>ControlId_50</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12056</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12056_ControlId_2##</td><td/><td/><td>0</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12056</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12056_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12056</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>196611</td><td/><td>##IDS__DialogId_12056_ControlId_51##</td><td>ControlId_1</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12056</td><td>ControlId_710</td><td>Text</td><td>135</td><td>169</td><td>310</td><td>25</td><td>131075</td><td/><td>##IDS__DialogId_12056_ControlId_710##</td><td>ControlId_1200</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12057</td><td>ControlId_1</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12057_ControlId_1##</td><td>ControlId_1004</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12057</td><td>ControlId_1004</td><td>ListView</td><td>135</td><td>85</td><td>310</td><td>111</td><td>16777219</td><td/><td>##IDS__DialogId_12057_ControlId_1004##</td><td>ControlId_710</td><td/><td>1350631425</td><td>1004</td><td/><td/></row>
+		<row><td>DialogId_12057</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12057_ControlId_1200##</td><td>ControlId_50</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12057</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12057_ControlId_2##</td><td/><td/><td>0</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12057</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12057_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12057</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>249</td><td>19</td><td>196611</td><td/><td>##IDS__DialogId_12057_ControlId_51##</td><td>ControlId_1</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12057</td><td>ControlId_710</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>25</td><td>131075</td><td/><td>##IDS__DialogId_12057_ControlId_710##</td><td>ControlId_1200</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12059_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>1</td><td/><td>##IDS__DialogId_12059_ControlId_12##</td><td>ControlId_710</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>3</td><td/><td>##IDS__DialogId_12059_ControlId_1200##</td><td>Text1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12059_ControlId_2##</td><td/><td/><td>0</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>ControlId_50</td><td>Text</td><td>135</td><td>116</td><td>310</td><td>16</td><td>65539</td><td/><td>##IDS__DialogId_12059_ControlId_50##</td><td>ControlId_1200</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>ControlId_710</td><td>Text</td><td>135</td><td>147</td><td>310</td><td>40</td><td>196611</td><td/><td>##IDS__DialogId_12059_ControlId_710##</td><td>ControlId_50</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12059_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12059</td><td>Text1</td><td>Text</td><td>13</td><td>7</td><td>195</td><td>18</td><td>65539</td><td/><td>##NEW_STRING21##</td><td>ControlId_1</td><td/><td>0</td><td>1201</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12060_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>1</td><td/><td>##IDS__DialogId_12060_ControlId_12##</td><td>ControlId_1</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>3</td><td/><td>##IDS__DialogId_12060_ControlId_1200##</td><td>ControlId_50</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12060_ControlId_2##</td><td/><td/><td>0</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_50</td><td>Text</td><td>135</td><td>50</td><td>198</td><td>16</td><td>65539</td><td/><td>##IDS__DialogId_12060_ControlId_50##</td><td>ControlId_12</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_711</td><td>Text</td><td>135</td><td>74</td><td>310</td><td>48</td><td>196611</td><td/><td>##IDS__DialogId_12060_ControlId_711##</td><td>ControlId_1200</td><td/><td>131072</td><td>711</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_712</td><td>Text</td><td>135</td><td>153</td><td>310</td><td>48</td><td>131075</td><td/><td>##IDS__DialogId_12060_ControlId_712##</td><td>ControlId_711</td><td/><td>131072</td><td>712</td><td/><td/></row>
+		<row><td>DialogId_12060</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12060_ControlId_9##</td><td>ControlId_712</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12061_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_1001</td><td>Icon</td><td>149</td><td>87</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1002</td><td/><td>0</td><td>1001</td><td/><td>NewBinary2</td></row>
+		<row><td>DialogId_12061</td><td>ControlId_1002</td><td>Icon</td><td>149</td><td>143</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1200</td><td/><td>0</td><td>1002</td><td/><td>NewBinary3</td></row>
+		<row><td>DialogId_12061</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12061_ControlId_12##</td><td>ControlId_1</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12061_ControlId_1200##</td><td>ControlId_196</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_196</td><td>PushButton</td><td>388</td><td>242</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12061_ControlId_196##</td><td>ControlId_12</td><td/><td>131072</td><td>196</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12061_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12061_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_504</td><td>RadioButtonGroup</td><td>136</td><td>74</td><td>60</td><td>67</td><td>3</td><td>_Complete</td><td/><td>ControlId_700</td><td/><td>131072</td><td>504</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>196611</td><td/><td>##IDS__DialogId_12061_ControlId_51##</td><td>ControlId_1001</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_700</td><td>Text</td><td>183</td><td>88</td><td>262</td><td>32</td><td>131075</td><td/><td>##IDS__DialogId_12061_ControlId_700##</td><td>ControlId_703</td><td/><td>131072</td><td>700</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_703</td><td>Text</td><td>183</td><td>144</td><td>262</td><td>32</td><td>131075</td><td/><td>##IDS__DialogId_12061_ControlId_703##</td><td>ControlId_715</td><td/><td>131072</td><td>703</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_710</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>25</td><td>196611</td><td/><td>##IDS__DialogId_12061_ControlId_710##</td><td>ControlId_504</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_715</td><td>Text</td><td>141</td><td>244</td><td>226</td><td>12</td><td>131075</td><td/><td>##IDS__DialogId_12061_ControlId_715##</td><td>ControlId_50</td><td/><td>131072</td><td>715</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12061_ControlId_9##</td><td>ControlId_710</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12061</td><td>ControlId_Negative1_1</td><td>GroupBox</td><td>135</td><td>233</td><td>310</td><td>27</td><td>3</td><td/><td>##IDS__DialogId_12061_ControlId_Negative1_1##</td><td/><td/><td>0</td><td>-1</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12062_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_1001</td><td>Icon</td><td>149</td><td>87</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1002</td><td/><td>0</td><td>1001</td><td/><td>NewBinary2</td></row>
+		<row><td>DialogId_12062</td><td>ControlId_1002</td><td>Icon</td><td>149</td><td>143</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1200</td><td/><td>0</td><td>1002</td><td/><td>NewBinary3</td></row>
+		<row><td>DialogId_12062</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12062_ControlId_12##</td><td>ControlId_1</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12062_ControlId_1200##</td><td>ControlId_710</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12062_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12062_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_504</td><td>RadioButtonGroup</td><td>136</td><td>74</td><td>60</td><td>67</td><td>3</td><td>_Complete1</td><td/><td>ControlId_700</td><td/><td>131072</td><td>504</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12062_ControlId_51##</td><td>ControlId_1001</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_700</td><td>Text</td><td>183</td><td>88</td><td>262</td><td>32</td><td>131075</td><td/><td>##IDS__DialogId_12062_ControlId_700##</td><td>ControlId_703</td><td/><td>131072</td><td>700</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_703</td><td>Text</td><td>183</td><td>144</td><td>262</td><td>32</td><td>131075</td><td/><td>##IDS__DialogId_12062_ControlId_703##</td><td>ControlId_12</td><td/><td>131072</td><td>703</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_710</td><td>Text</td><td>135</td><td>50</td><td>310</td><td>16</td><td>131075</td><td/><td>##IDS__DialogId_12062_ControlId_710##</td><td>ControlId_504</td><td/><td>131072</td><td>710</td><td/><td/></row>
+		<row><td>DialogId_12062</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12062_ControlId_9##</td><td>ControlId_50</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12066_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_10</td><td>PushButton</td><td>395</td><td>229</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12066_ControlId_10##</td><td>ControlId_12</td><td/><td>0</td><td>10</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_1000</td><td>RadioButtonGroup</td><td>135</td><td>229</td><td>237</td><td>37</td><td>3</td><td>I__accept_the_terms_of_the_license_agreement</td><td/><td>ControlId_10</td><td/><td>8192</td><td>1000</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12066_ControlId_12##</td><td>ControlId_50</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>3</td><td/><td>##IDS__DialogId_12066_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12066_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_301</td><td>Edit</td><td>135</td><td>50</td><td>310</td><td>174</td><td>16842755</td><td/><td/><td>ControlId_1000</td><td/><td>2230272</td><td>301</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12066_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12066_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12066</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12066_ControlId_9##</td><td>ControlId_301</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12067_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_1001</td><td>Icon</td><td>135</td><td>50</td><td>20</td><td>20</td><td>524291</td><td/><td/><td>ControlId_1200</td><td/><td>0</td><td>1001</td><td/><td>NewBinary1</td></row>
+		<row><td>DialogId_12067</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12067_ControlId_12##</td><td>ControlId_715</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>65539</td><td/><td>##IDS__DialogId_12067_ControlId_1200##</td><td>ControlId_718</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_196</td><td>PushButton</td><td>395</td><td>60</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12067_ControlId_196##</td><td>ControlId_12</td><td/><td>0</td><td>196</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12067_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12067_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12067_ControlId_51##</td><td>ControlId_1001</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_715</td><td>Text</td><td>167</td><td>62</td><td>217</td><td>9</td><td>131075</td><td/><td>##IDS__DialogId_12067_ControlId_715##</td><td>ControlId_50</td><td/><td>131072</td><td>715</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_718</td><td>Text</td><td>167</td><td>50</td><td>224</td><td>8</td><td>131075</td><td/><td>##IDS__DialogId_12067_ControlId_718##</td><td>ControlId_1</td><td/><td>131072</td><td>718</td><td/><td/></row>
+		<row><td>DialogId_12067</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12067_ControlId_9##</td><td>ControlId_196</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_1</td><td>PushButton</td><td>250</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12069_ControlId_1##</td><td>ControlId_9</td><td/><td>0</td><td>1</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_10</td><td>PushButton</td><td>395</td><td>229</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12069_ControlId_10##</td><td>ControlId_12</td><td/><td>0</td><td>10</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_1000</td><td>RadioButtonGroup</td><td>135</td><td>229</td><td>237</td><td>37</td><td>3</td><td>I__accept_the_terms_of_the_license_agreement1</td><td/><td>ControlId_10</td><td/><td>0</td><td>1000</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_12</td><td>PushButton</td><td>195</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12069_ControlId_12##</td><td>ControlId_50</td><td/><td>131072</td><td>12</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>35</td><td>120</td><td>240</td><td>3</td><td/><td>##IDS__DialogId_12069_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_2</td><td>PushButton</td><td>0</td><td>291</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__DialogId_12069_ControlId_2##</td><td/><td/><td>131072</td><td>2</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_301</td><td>ScrollableText</td><td>135</td><td>50</td><td>310</td><td>174</td><td>16842755</td><td/><td/><td>ControlId_1000</td><td/><td>2230272</td><td>301</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_50</td><td>Text</td><td>10</td><td>3</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__DialogId_12069_ControlId_50##</td><td>ControlId_51</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_51</td><td>Text</td><td>17</td><td>15</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__DialogId_12069_ControlId_51##</td><td>ControlId_1200</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>DialogId_12069</td><td>ControlId_9</td><td>PushButton</td><td>400</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12069_ControlId_9##</td><td>ControlId_301</td><td/><td>0</td><td>9</td><td/><td/></row>
 		<row><td>DialogId_12070</td><td>ControlId_10</td><td>PushButton</td><td>265</td><td>155</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12070_ControlId_10##</td><td>ControlId_50</td><td/><td>0</td><td>10</td><td/><td/></row>
 		<row><td>DialogId_12070</td><td>ControlId_12</td><td>PushButton</td><td>165</td><td>196</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_12070_ControlId_12##</td><td>ControlId_6</td><td/><td>131072</td><td>12</td><td/><td/></row>
 		<row><td>DialogId_12070</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>0</td><td>332</td><td>36</td><td>65539</td><td/><td>##IDS__DialogId_12070_ControlId_1200##</td><td>ControlId_301</td><td/><td>131072</td><td>1200</td><td/><td/></row>
@@ -192,27 +448,52 @@
 		<row><td>DialogId_17825</td><td>user_mail_input</td><td>Edit</td><td>9</td><td>82</td><td>236</td><td>14</td><td>3</td><td/><td/><td>user_num_input</td><td/><td>131072</td><td>17821</td><td/><td/></row>
 		<row><td>DialogId_17825</td><td>user_name_input</td><td>Edit</td><td>8</td><td>20</td><td>236</td><td>14</td><td>3</td><td/><td/><td>user_company_input</td><td/><td>131072</td><td>301</td><td/><td/></row>
 		<row><td>DialogId_17825</td><td>user_num_input</td><td>Edit</td><td>7</td><td>49</td><td>236</td><td>14</td><td>3</td><td/><td/><td>user_name_input</td><td/><td>131072</td><td>303</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_1</td><td>PushButton</td><td>215</td><td>196</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_12</td><td>PushButton</td><td>159</td><td>196</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_12##</td><td>ControlId_1300</td><td/><td>0</td><td>12</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>0</td><td>332</td><td>36</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_1300</td><td>Line</td><td>43</td><td>186</td><td>289</td><td>1</td><td>1</td><td/><td/><td>ControlId_7</td><td/><td>131079</td><td>1300</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_1301</td><td>Line</td><td>0</td><td>36</td><td>332</td><td>1</td><td>3</td><td/><td/><td>USER_NAME</td><td/><td>131088</td><td>1301</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_2</td><td>PushButton</td><td>164</td><td>225</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__NewDialog_ControlId_2##</td><td/><td/><td>0</td><td>2</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_50</td><td>Text</td><td>8</td><td>6</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_50##</td><td>USER_MAIL_INPUT</td><td/><td>180224</td><td>50</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_51</td><td>Text</td><td>48</td><td>41</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_51##</td><td>ControlId_1301</td><td/><td>131072</td><td>51</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_52</td><td>Text</td><td>0</td><td>0</td><td>332</td><td>36</td><td>3</td><td/><td/><td>ControlId_1200</td><td/><td>131072</td><td>52</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_7</td><td>Text</td><td>2</td><td>182</td><td>40</td><td>10</td><td>2</td><td/><td/><td>ControlId_51</td><td/><td>131072</td><td>7</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>ControlId_9</td><td>PushButton</td><td>272</td><td>196</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>Text1</td><td>Text</td><td>23</td><td>126</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING14##</td><td/><td/><td>131072</td><td>1311</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_COMPANY</td><td>Text</td><td>22</td><td>111</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING4##</td><td/><td/><td>131072</td><td>1305</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_COMP_INPUT</td><td>Text</td><td>99</td><td>107</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING10##</td><td>USER_NAME_INPUT</td><td/><td>131072</td><td>1308</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_MAIL</td><td>Text</td><td>21</td><td>92</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING3##</td><td>ControlId_50</td><td/><td>131072</td><td>1304</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_MAIL_INPUT</td><td>Text</td><td>99</td><td>90</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING11##</td><td>USER_NUM_INPUT</td><td/><td>131072</td><td>1309</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_NAME</td><td>Text</td><td>20</td><td>60</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING1##</td><td>USER_NO</td><td/><td>131072</td><td>1302</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_NAME_INPUT</td><td>Text</td><td>99</td><td>59</td><td>120</td><td>12</td><td>458759</td><td/><td>##NEW_STRING5##</td><td>ControlId_52</td><td/><td>131072</td><td>1306</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_NO</td><td>Text</td><td>20</td><td>75</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING2##</td><td>USER_MAIL</td><td/><td>131072</td><td>1303</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>USER_NUM_INPUT</td><td>Text</td><td>99</td><td>73</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING9##</td><td>user_country_input</td><td/><td>131072</td><td>1307</td><td/><td/></row>
-		<row><td>user_input_wizard</td><td>user_country_input</td><td>Text</td><td>99</td><td>126</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING13##</td><td>USER_COMP_INPUT</td><td/><td>131072</td><td>1310</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_1</td><td>PushButton</td><td>229</td><td>249</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_12</td><td>PushButton</td><td>165</td><td>251</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_12##</td><td>ControlId_1300</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>0</td><td>332</td><td>36</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_1300</td><td>Line</td><td>0</td><td>232</td><td>460</td><td>1</td><td>1</td><td/><td/><td>ControlId_7</td><td/><td>131079</td><td>1300</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_1301</td><td>Line</td><td>0</td><td>36</td><td>460</td><td>1</td><td>1</td><td/><td/><td>ControlId_50</td><td/><td>131088</td><td>1301</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_50</td><td>Text</td><td>8</td><td>15</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_50##</td><td>ControlId_52</td><td/><td>180224</td><td>50</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_52</td><td>Text</td><td>0</td><td>0</td><td>332</td><td>36</td><td>3</td><td/><td/><td>ControlId_1200</td><td/><td>131072</td><td>52</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_7</td><td>Text</td><td>2</td><td>270</td><td>458</td><td>10</td><td>2</td><td/><td/><td>ControlId_1301</td><td/><td>131072</td><td>7</td><td/><td/></row>
+		<row><td>Edition_Selecton_Wizard</td><td>ControlId_9</td><td>PushButton</td><td>292</td><td>249</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_1</td><td>PushButton</td><td>215</td><td>196</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_12</td><td>PushButton</td><td>159</td><td>196</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_12##</td><td>ControlId_1300</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_1200</td><td>Text</td><td>0</td><td>0</td><td>332</td><td>36</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_1200##</td><td>ControlId_1</td><td/><td>131072</td><td>1200</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_1300</td><td>Line</td><td>43</td><td>186</td><td>289</td><td>1</td><td>1</td><td/><td/><td>ControlId_7</td><td/><td>131079</td><td>1300</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_1301</td><td>Line</td><td>0</td><td>36</td><td>332</td><td>1</td><td>3</td><td/><td/><td>USER_NAME</td><td/><td>131088</td><td>1301</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_2</td><td>PushButton</td><td>164</td><td>225</td><td>50</td><td>14</td><td>2</td><td/><td>##IDS__NewDialog_ControlId_2##</td><td/><td/><td>0</td><td>2</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_50</td><td>Text</td><td>8</td><td>6</td><td>220</td><td>8</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_50##</td><td>USER_MAIL_INPUT</td><td/><td>180224</td><td>50</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_51</td><td>Text</td><td>48</td><td>41</td><td>213</td><td>19</td><td>65539</td><td/><td>##IDS__NewDialog_ControlId_51##</td><td>ControlId_1301</td><td/><td>131072</td><td>51</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_52</td><td>Text</td><td>0</td><td>0</td><td>332</td><td>36</td><td>3</td><td/><td/><td>ControlId_1200</td><td/><td>131072</td><td>52</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_7</td><td>Text</td><td>2</td><td>182</td><td>40</td><td>10</td><td>2</td><td/><td/><td>ControlId_51</td><td/><td>131072</td><td>7</td><td/><td/></row>
+		<row><td>d2</td><td>ControlId_9</td><td>PushButton</td><td>272</td><td>196</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__NewDialog_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>d2</td><td>Text1</td><td>Text</td><td>23</td><td>126</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING14##</td><td/><td/><td>131072</td><td>1311</td><td/><td/></row>
+		<row><td>d2</td><td>USER_COMPANY</td><td>Text</td><td>22</td><td>111</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING4##</td><td/><td/><td>131072</td><td>1305</td><td/><td/></row>
+		<row><td>d2</td><td>USER_COMP_INPUT</td><td>Text</td><td>99</td><td>107</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING10##</td><td>USER_NAME_INPUT</td><td/><td>131072</td><td>1308</td><td/><td/></row>
+		<row><td>d2</td><td>USER_MAIL</td><td>Text</td><td>21</td><td>92</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING3##</td><td>ControlId_50</td><td/><td>131072</td><td>1304</td><td/><td/></row>
+		<row><td>d2</td><td>USER_MAIL_INPUT</td><td>Text</td><td>99</td><td>90</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING11##</td><td>USER_NUM_INPUT</td><td/><td>131072</td><td>1309</td><td/><td/></row>
+		<row><td>d2</td><td>USER_NAME</td><td>Text</td><td>20</td><td>60</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING1##</td><td>USER_NO</td><td/><td>131072</td><td>1302</td><td/><td/></row>
+		<row><td>d2</td><td>USER_NAME_INPUT</td><td>Text</td><td>99</td><td>59</td><td>120</td><td>12</td><td>458759</td><td/><td>##NEW_STRING5##</td><td>ControlId_52</td><td/><td>131072</td><td>1306</td><td/><td/></row>
+		<row><td>d2</td><td>USER_NO</td><td>Text</td><td>20</td><td>75</td><td>60</td><td>12</td><td>65539</td><td/><td>##NEW_STRING2##</td><td>USER_MAIL</td><td/><td>131072</td><td>1303</td><td/><td/></row>
+		<row><td>d2</td><td>USER_NUM_INPUT</td><td>Text</td><td>99</td><td>73</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING9##</td><td>user_country_input</td><td/><td>131072</td><td>1307</td><td/><td/></row>
+		<row><td>d2</td><td>user_country_input</td><td>Text</td><td>99</td><td>126</td><td>120</td><td>12</td><td>393223</td><td/><td>##NEW_STRING13##</td><td>USER_COMP_INPUT</td><td/><td>131072</td><td>1310</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>ControlId_1</td><td>PushButton</td><td>282</td><td>284</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_1##</td><td>ControlId_9</td><td/><td>131072</td><td>1</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>ControlId_12</td><td>PushButton</td><td>223</td><td>285</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_12##</td><td>ControlId_1300</td><td/><td>0</td><td>12</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>ControlId_1300</td><td>Line</td><td>0</td><td>274</td><td>460</td><td>1</td><td>1</td><td/><td/><td>ControlId_50</td><td/><td>131079</td><td>1300</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>ControlId_202</td><td>Text</td><td>26</td><td>75</td><td>85</td><td>14</td><td>196611</td><td/><td>##IDS__DialogId_10205_ControlId_202##</td><td>Text1</td><td/><td>131072</td><td>202</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>ControlId_50</td><td>Text</td><td>17</td><td>9</td><td>274</td><td>22</td><td>327683</td><td/><td>##IDS__DialogId_10205_ControlId_50##</td><td>ControlId_202</td><td/><td>131072</td><td>50</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>ControlId_9</td><td>PushButton</td><td>340</td><td>284</td><td>50</td><td>14</td><td>3</td><td/><td>##IDS__DialogId_10205_ControlId_9##</td><td>ControlId_12</td><td/><td>0</td><td>9</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Edit1</td><td>Edit</td><td>58</td><td>94</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Edit2</td><td/><td>0</td><td>1306</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Edit2</td><td>Edit</td><td>57</td><td>134</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Edit3</td><td/><td>0</td><td>1307</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Edit3</td><td>Edit</td><td>57</td><td>172</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Text2</td><td/><td>0</td><td>1308</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Edit4</td><td>Edit</td><td>57</td><td>210</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Text5</td><td/><td>0</td><td>1309</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Edit5</td><td>Edit</td><td>55</td><td>249</td><td>262</td><td>16</td><td>7</td><td/><td/><td>Edit1</td><td/><td>0</td><td>1311</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Text1</td><td>Text</td><td>25</td><td>155</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING15##</td><td>Text4</td><td/><td>131072</td><td>1304</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Text2</td><td>Text</td><td>25</td><td>194</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING16##</td><td>Edit4</td><td/><td>131072</td><td>1305</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Text3</td><td>Text</td><td>25</td><td>118</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING17##</td><td>ControlId_1</td><td/><td>131072</td><td>1306</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Text4</td><td>Text</td><td>25</td><td>232</td><td>85</td><td>14</td><td>196611</td><td/><td>##NEW_STRING19##</td><td>Edit5</td><td/><td>131072</td><td>1310</td><td/><td/></row>
+		<row><td>user_input_demo_project1</td><td>Text5</td><td>Text</td><td>77</td><td>42</td><td>241</td><td>22</td><td>65539</td><td/><td>##NEW_STRING20##</td><td>Text3</td><td/><td>0</td><td>1312</td><td/><td/></row>
 	</table>
 
 	<table name="Dialog">
@@ -231,11 +512,34 @@
 		<col def="I4">ISWindowStyle</col>
 		<col def="I4">ISResourceId</col>
 		<row><td>DialogId_10205</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_10205##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>10205</td></row>
-		<row><td>DialogId_102051</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_10205##</td><td>Text3</td><td>ControlId_1</td><td>ControlId_1</td><td/><td>Tahoma8</td><td>-2134376252</td><td>10205</td></row>
+		<row><td>DialogId_12005</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12005##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12005</td></row>
+		<row><td>DialogId_12006</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12006##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12006</td></row>
+		<row><td>DialogId_12009</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12009##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12009</td></row>
+		<row><td>DialogId_12011</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12011##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12011</td></row>
+		<row><td>DialogId_12021</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12021##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12021</td></row>
+		<row><td>DialogId_12022</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12022##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12022</td></row>
+		<row><td>DialogId_12024</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12024##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12024</td></row>
+		<row><td>DialogId_12025</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12025##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12025</td></row>
+		<row><td>DialogId_12027</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12027##</td><td>ControlId_711</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12027</td></row>
+		<row><td>DialogId_12029</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12029##</td><td>ControlId_1200</td><td>ControlId_6</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12029</td></row>
+		<row><td>DialogId_12033</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12033##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12033</td></row>
+		<row><td>DialogId_12052</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12052##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12052</td></row>
+		<row><td>DialogId_12053</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12053##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12053</td></row>
+		<row><td>DialogId_12056</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12056##</td><td>ControlId_710</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12056</td></row>
+		<row><td>DialogId_12057</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12057##</td><td>ControlId_710</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12057</td></row>
+		<row><td>DialogId_12059</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12059##</td><td>ControlId_1</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12059</td></row>
+		<row><td>DialogId_12060</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12060##</td><td>ControlId_50</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134900544</td><td>12060</td></row>
+		<row><td>DialogId_12061</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12061##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12061</td></row>
+		<row><td>DialogId_12062</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12062##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12062</td></row>
+		<row><td>DialogId_12066</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12066##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12066</td></row>
+		<row><td>DialogId_12067</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12067##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12067</td></row>
+		<row><td>DialogId_12069</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_12069##</td><td>ControlId_1200</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12069</td></row>
 		<row><td>DialogId_12070</td><td>0</td><td>0</td><td>332</td><td>218</td><td>1</td><td>##IDS__DialogId_12070##</td><td>ControlId_52</td><td>ControlId_6</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>12070</td></row>
 		<row><td>DialogId_17818</td><td>0</td><td>0</td><td>332</td><td>218</td><td>1</td><td>##IDS__DialogId_17818##</td><td>ControlId_17831</td><td>ControlId_1</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>17818</td></row>
 		<row><td>DialogId_17825</td><td>0</td><td>0</td><td>304</td><td>193</td><td>1</td><td>##IDS__DialogId_17825##</td><td>user_mail_input</td><td>ControlId_17829</td><td>ControlId_2</td><td/><td>Tahoma8</td><td>-2134376256</td><td>17825</td></row>
-		<row><td>user_input_wizard</td><td>0</td><td>0</td><td>332</td><td>218</td><td>0</td><td>##IDS__NewDialog##</td><td>ControlId_52</td><td/><td>ControlId_2</td><td/><td>MSSansSerif8</td><td>-2134376256</td><td>0</td></row>
+		<row><td>Edition_Selecton_Wizard</td><td>0</td><td>0</td><td>460</td><td>305</td><td>0</td><td>##IDS__NewDialog##</td><td>ControlId_52</td><td>ControlId_50</td><td/><td/><td>MSSansSerif8</td><td>-2134376256</td><td>0</td></row>
+		<row><td>d2</td><td>0</td><td>0</td><td>332</td><td>218</td><td>0</td><td>##IDS__NewDialog##</td><td>ControlId_52</td><td/><td>ControlId_2</td><td/><td>MSSansSerif8</td><td>-2134376256</td><td>0</td></row>
+		<row><td>user_input_demo_project1</td><td>0</td><td>0</td><td>460</td><td>305</td><td>1</td><td>##IDS__DialogId_10205##</td><td>Text3</td><td>ControlId_1</td><td>ControlId_1</td><td/><td>Tahoma8</td><td>-2134376252</td><td>10205</td></row>
 	</table>
 
 	<table name="Directory">
@@ -849,20 +1153,303 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Launch Tutorial.exe</td><td>0</td><td/><td>-475244495</td></row>
 		<row><td>IDS_SQLSCRIPT_INSTALLING</td><td>1033</td><td>Executing SQL Install Script...</td><td>0</td><td/><td>1269613639</td></row>
 		<row><td>IDS_SQLSCRIPT_UNINSTALLING</td><td>1033</td><td>Executing SQL Uninstall Script...</td><td>0</td><td/><td>1269613639</td></row>
-		<row><td>IDS__DialogId_10205</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-475214572</td></row>
-		<row><td>IDS__DialogId_10205_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-475214572</td></row>
-		<row><td>IDS__DialogId_10205_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-475214572</td></row>
-		<row><td>IDS__DialogId_10205_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-475214572</td></row>
-		<row><td>IDS__DialogId_10205_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-475214572</td></row>
-		<row><td>IDS__DialogId_10205_ControlId_202</td><td>1033</td><td>Name :</td><td>0</td><td/><td>-475252683</td></row>
-		<row><td>IDS__DialogId_10205_ControlId_50</td><td>1033</td><td>User input pannel</td><td>0</td><td/><td>-475209643</td></row>
-		<row><td>IDS__DialogId_10205_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-475214572</td></row>
+		<row><td>IDS__DialogId_10205</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206801719</td></row>
+		<row><td>IDS__DialogId_10205_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206801719</td></row>
+		<row><td>IDS__DialogId_10205_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206801719</td></row>
+		<row><td>IDS__DialogId_10205_ControlId_1200</td><td>1033</td><td>@10550,10551;1;1;0,128,128;0,128,128</td><td>0</td><td/><td>-206813014</td></row>
+		<row><td>IDS__DialogId_10205_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206801719</td></row>
+		<row><td>IDS__DialogId_10205_ControlId_202</td><td>1033</td><td>Name :</td><td>0</td><td/><td>-206828087</td></row>
+		<row><td>IDS__DialogId_10205_ControlId_50</td><td>1033</td><td>Welcome To user input panel [DEMO_PROJECT]</td><td>0</td><td/><td>-206797335</td></row>
+		<row><td>IDS__DialogId_10205_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206801719</td></row>
+		<row><td>IDS__DialogId_12005</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206773302</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_196</td><td>1033</td><td>B&amp;rowse...</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_50</td><td>1033</td><td>Choose Destination Location [DEMO_PROJECT]</td><td>0</td><td/><td>-206822422</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_51</td><td>1033</td><td>Select folder where setup will install files.</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_715</td><td>1033</td><td>c:\path\company\product\suite\version</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_718</td><td>1033</td><td>Setup will install %P in the following folder.\n\nTo install to this folder, click Next. To install to a different folder, click Browse and select another folder.</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12005_ControlId_Negative1_1</td><td>1033</td><td>Destination Folder</td><td>0</td><td/><td>-206771254</td></row>
+		<row><td>IDS__DialogId_12006</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206791350</td></row>
+		<row><td>IDS__DialogId_12006_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206789302</td></row>
+		<row><td>IDS__DialogId_12006_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206789302</td></row>
+		<row><td>IDS__DialogId_12006_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206789302</td></row>
+		<row><td>IDS__DialogId_12006_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206789302</td></row>
+		<row><td>IDS__DialogId_12006_ControlId_50</td><td>1033</td><td>Welcome to the InstallShield Wizard for %P [DEMO_PROJECT]</td><td>0</td><td/><td>-206822038</td></row>
+		<row><td>IDS__DialogId_12006_ControlId_710</td><td>1033</td><td>The InstallShield Wizard will install %P [DEMO_PROJECT]on your computer.  To continue, click Next.</td><td>0</td><td/><td>-206813846</td></row>
+		<row><td>IDS__DialogId_12006_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206789302</td></row>
+		<row><td>IDS__DialogId_12009</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_196</td><td>1033</td><td>B&amp;rowse...</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_50</td><td>1033</td><td>Setup Type[DEMO_PROJECT]</td><td>0</td><td/><td>-206822102</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_501_1</td><td>1033</td><td>Typical</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_501_2</td><td>1033</td><td>Compact</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_501_3</td><td>1033</td><td>Custom</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_51</td><td>1033</td><td>Select the setup type that best suits your needs.</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_701</td><td>1033</td><td>Program will be installed with the most common options. Recommended for most users.</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_702</td><td>1033</td><td>Program will be installed with minimum required options.</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_703</td><td>1033</td><td>You may select the options you want to install. Recommended for advanced users.</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_710</td><td>1033</td><td>Click the type of setup you prefer. </td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_715</td><td>1033</td><td>c:\path\company\product</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12009_ControlId_Negative1_1</td><td>1033</td><td>Destination Folder</td><td>0</td><td/><td>-206777078</td></row>
+		<row><td>IDS__DialogId_12011</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_50</td><td>1033</td><td>Custom Installation Help [DEMO_PROJECT]</td><td>0</td><td/><td>-206818134</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_51</td><td>1033</td><td>Descriptions of setup options.</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_702</td><td>1033</td><td>Static Topic</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_703</td><td>1033</td><td>Static Topic + 1</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_704</td><td>1033</td><td>Static Topic + 2</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_710</td><td>1033</td><td>Custom setup allows you to control which parts of your program are to be installed. The options are:</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_752</td><td>1033</td><td>Static Topic Detail</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_753</td><td>1033</td><td>Static Topic Detail + 1</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_754</td><td>1033</td><td>Static Topic Detail + 2</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12011_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206830422</td></row>
+		<row><td>IDS__DialogId_12021</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_195</td><td>1033</td><td>Disk &amp;Space...</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_196</td><td>1033</td><td>B&amp;rowse...</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_401</td><td>1033</td><td>Feature list field goes here.</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_50</td><td>1033</td><td>Select Features[DEMO_PROJECT]</td><td>0</td><td/><td>-206777238</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_51</td><td>1033</td><td>Select the features setup will install.</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_711</td><td>1033</td><td>Select the features you want to install, and deselect the features you do not want to install.</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_715</td><td>1033</td><td>c:\path\company\product</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_716</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_717</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_722</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_723</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_Negative1_1</td><td>1033</td><td>Destination Folder</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_Negative1_2</td><td>1033</td><td>Space Required on</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12021_ControlId_Negative1_3</td><td>1033</td><td>Space Available on</td><td>0</td><td/><td>-206787478</td></row>
+		<row><td>IDS__DialogId_12022</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_195</td><td>1033</td><td>Disk &amp;Space...</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_196</td><td>1033</td><td>B&amp;rowse...</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_401</td><td>1033</td><td>Feature List is displayed here</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_50</td><td>1033</td><td>Select Features [DEMO_PROJECT]</td><td>0</td><td/><td>-206773110</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_51</td><td>1033</td><td>Select the features setup will install.</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_710</td><td>1033</td><td>Select the features you want to install, and deselect the features you do not want to install.</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_715</td><td>1033</td><td>c:\path\company\product</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_716</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_717</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_722</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_723</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_Negative1_1</td><td>1033</td><td>Destination Folder</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_Negative1_2</td><td>1033</td><td>Space Required on</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12022_ControlId_Negative1_3</td><td>1033</td><td>Space Available on</td><td>0</td><td/><td>-206783350</td></row>
+		<row><td>IDS__DialogId_12024</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_197</td><td>1033</td><td>Change...</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_401</td><td>1033</td><td>Feature list field goes here.</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_50</td><td>1033</td><td>Select Features[DEMO_PROJECT]</td><td>0</td><td/><td>-206799702</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_51</td><td>1033</td><td>Select the features setup will install.</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_711</td><td>1033</td><td>Select the features you want to install, and deselect the features you do not want to install.</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_712</td><td>1033</td><td>Text</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_716</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_717</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_722</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_723</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_Negative1_1</td><td>1033</td><td>Description</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_Negative1_2</td><td>1033</td><td>Space Required on</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12024_ControlId_Negative1_3</td><td>1033</td><td>Space Available on</td><td>0</td><td/><td>-206807894</td></row>
+		<row><td>IDS__DialogId_12025</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_401</td><td>1033</td><td>Parent Features list.</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_402</td><td>1033</td><td>Children Features list.</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_50</td><td>1033</td><td>Select Features[DEMO_PROJECT]</td><td>0</td><td/><td>-206787446</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_51</td><td>1033</td><td>Select the features setup will install.</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_711</td><td>1033</td><td>Select the features you want to install, and deselect the features you do not want to install.</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_712</td><td>1033</td><td>Text</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_716</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_717</td><td>1033</td><td>0 KB</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_722</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_723</td><td>1033</td><td>C:</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_Negative1_1</td><td>1033</td><td>Description</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_Negative1_2</td><td>1033</td><td>Space Required on</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12025_ControlId_Negative1_3</td><td>1033</td><td>Space Available on</td><td>0</td><td/><td>-206795638</td></row>
+		<row><td>IDS__DialogId_12027</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206780278</td></row>
+		<row><td>IDS__DialogId_12027_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206780278</td></row>
+		<row><td>IDS__DialogId_12027_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206780278</td></row>
+		<row><td>IDS__DialogId_12027_ControlId_1200</td><td>1033</td><td>@10550,10551;1;1;0,128,128;0,128,128</td><td>0</td><td/><td>-206780278</td></row>
+		<row><td>IDS__DialogId_12027_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206780278</td></row>
+		<row><td>IDS__DialogId_12027_ControlId_711</td><td>1033</td><td>This is the message text.</td><td>0</td><td/><td>-206780278</td></row>
+		<row><td>IDS__DialogId_12027_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206780278</td></row>
+		<row><td>IDS__DialogId_12029</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_10</td><td>1033</td><td>&amp;Print</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_50</td><td>1033</td><td>License Agreement[DEMO_PROJECT]</td><td>0</td><td/><td>-206810198</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_51</td><td>1033</td><td>Please read the following license agreement carefully.</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_6</td><td>1033</td><td>&amp;Yes</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_711</td><td>1033</td><td>Press the PAGE DOWN key to see the rest of the agreement.</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_712</td><td>1033</td><td>Do you accept all the terms of the preceding License Agreement?  If you select No,  the setup will close.  To install %p, you must accept this agreement.</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12029_ControlId_9</td><td>1033</td><td>&amp;No</td><td>0</td><td/><td>-206818390</td></row>
+		<row><td>IDS__DialogId_12033</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_50</td><td>1033</td><td>Setup Type[DEMO_PROJECT]</td><td>0</td><td/><td>-206781142</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_51</td><td>1033</td><td>Select the setup type that best suits your needs.</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_710</td><td>1033</td><td>Click the type of setup you prefer.</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12033_ControlId_Negative1_1</td><td>1033</td><td>Description</td><td>0</td><td/><td>-206789334</td></row>
+		<row><td>IDS__DialogId_12052</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_1000</td><td>1033</td><td>Tree1</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_50</td><td>1033</td><td>Select Features[DEMO_PROJECT]</td><td>0</td><td/><td>-206775094</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_51</td><td>1033</td><td>Select the features setup will install.</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_711</td><td>1033</td><td>Select the features you want to install, and deselect the features you do not want to install.</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_712</td><td>1033</td><td>Text</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_722</td><td>1033</td><td>%s of space required on the %s drive</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_723</td><td>1033</td><td>%s of space available on the %s drive</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12052_ControlId_Negative1_1</td><td>1033</td><td>Description</td><td>0</td><td/><td>-206785334</td></row>
+		<row><td>IDS__DialogId_12053</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_301_1</td><td>1033</td><td>&amp;Modify</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_301_2</td><td>1033</td><td>R&amp;epair</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_301_3</td><td>1033</td><td>&amp;Remove</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_50</td><td>1033</td><td>Welcome[DEMO_PROJECT]</td><td>0</td><td/><td>-206791318</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_51</td><td>1033</td><td>Modify, repair, or remove the program.</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_701</td><td>1033</td><td>Select new program features to add or select currently installed features to remove.</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_702</td><td>1033</td><td>Reinstall all program features installed by the previous setup.</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_703</td><td>1033</td><td>Remove all installed features.</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_710</td><td>1033</td><td>Welcome to the %P Setup Maintenance program. This program lets you modify the current installation. Click one of the options below.</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12053_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206799510</td></row>
+		<row><td>IDS__DialogId_12056</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206771158</td></row>
+		<row><td>IDS__DialogId_12056_ControlId_1</td><td>1033</td><td>OK</td><td>0</td><td/><td>-206771158</td></row>
+		<row><td>IDS__DialogId_12056_ControlId_1004</td><td>1033</td><td>List1</td><td>0</td><td/><td>-206771158</td></row>
+		<row><td>IDS__DialogId_12056_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206771158</td></row>
+		<row><td>IDS__DialogId_12056_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206771158</td></row>
+		<row><td>IDS__DialogId_12056_ControlId_50</td><td>1033</td><td>Disk Space Requirements[DEMO_PROJECT]</td><td>0</td><td/><td>-206822326</td></row>
+		<row><td>IDS__DialogId_12056_ControlId_51</td><td>1033</td><td>The disk space required for installation of the selected features.</td><td>0</td><td/><td>-206771158</td></row>
+		<row><td>IDS__DialogId_12056_ControlId_710</td><td>1033</td><td>Check the disk space for the volumes to ensure there is enough disk space available.  You can remove files from any volumes that do not have enough disk space, choose to install less features onto local drives, or select different destination drives.</td><td>0</td><td/><td>-206771158</td></row>
+		<row><td>IDS__DialogId_12057</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206793686</td></row>
+		<row><td>IDS__DialogId_12057_ControlId_1</td><td>1033</td><td>OK</td><td>0</td><td/><td>-206793686</td></row>
+		<row><td>IDS__DialogId_12057_ControlId_1004</td><td>1033</td><td>List1</td><td>0</td><td/><td>-206793686</td></row>
+		<row><td>IDS__DialogId_12057_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206793686</td></row>
+		<row><td>IDS__DialogId_12057_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206793686</td></row>
+		<row><td>IDS__DialogId_12057_ControlId_50</td><td>1033</td><td>Out of Disk Space[DEMO_PROJECT]</td><td>0</td><td/><td>-206777302</td></row>
+		<row><td>IDS__DialogId_12057_ControlId_51</td><td>1033</td><td>Disk space required for the setup exceeds available disk space.</td><td>0</td><td/><td>-206793686</td></row>
+		<row><td>IDS__DialogId_12057_ControlId_710</td><td>1033</td><td>Some volumes do not have enough disk space available for the currently selected features.  You can remove files from the volumes that do not have enough space, choose to install fewer features onto local drives, or select different destination drives.</td><td>0</td><td/><td>-206793686</td></row>
+		<row><td>IDS__DialogId_12059</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12059_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12059_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12059_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12059_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12059_ControlId_50</td><td>1033</td><td>Welcome to the InstallShield Patch Wizard for %P</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12059_ControlId_710</td><td>1033</td><td>The InstallShield Patch Wizard will install the patch for %P on your computer.  To continue, click Next.</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12059_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206827927</td></row>
+		<row><td>IDS__DialogId_12060</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_1</td><td>1033</td><td>Finish</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_50</td><td>1033</td><td>InstallShield Wizard Complete[DEMO_PROJECT]</td><td>0</td><td/><td>-206805750</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_711</td><td>1033</td><td>The wizard was interrupted before %P could be completely installed.</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_712</td><td>1033</td><td>The system has not been modified. To install this program at a later time, run the installation again.\n\nClick Finish to exit the wizard.</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12060_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206815990</td></row>
+		<row><td>IDS__DialogId_12061</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_196</td><td>1033</td><td>B&amp;rowse...</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206789366</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_50</td><td>1033</td><td>Setup Type[DEMO_PROJECT]</td><td>0</td><td/><td>-206781174</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_504_1</td><td>1033</td><td>&amp;Complete</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_504_2</td><td>1033</td><td>Cu&amp;stom</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_51</td><td>1033</td><td>Select the setup type that best suits your needs.</td><td>0</td><td/><td>-206789366</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_700</td><td>1033</td><td>All program features will be installed. (Requires the most disk space.)</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_703</td><td>1033</td><td>Select which program features you want installed. Recommended for advanced users.</td><td>0</td><td/><td>-206789366</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_710</td><td>1033</td><td>Click the type of setup you prefer. </td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_715</td><td>1033</td><td>c:\path\company\product</td><td>0</td><td/><td>-206789366</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206791414</td></row>
+		<row><td>IDS__DialogId_12061_ControlId_Negative1_1</td><td>1033</td><td>Destination Folder</td><td>0</td><td/><td>-206789366</td></row>
+		<row><td>IDS__DialogId_12062</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_50</td><td>1033</td><td>Setup Type[DEMO_PROJECT]</td><td>0</td><td/><td>-206799542</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_504_1</td><td>1033</td><td>&amp;Complete</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_504_2</td><td>1033</td><td>Cu&amp;stom</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_51</td><td>1033</td><td>Select the setup type to install.</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_700</td><td>1033</td><td>All program features will be installed. (Requires the most disk space.)</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_703</td><td>1033</td><td>Select which program features you want installed. Recommended for advanced users.</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_710</td><td>1033</td><td>Please select a setup type.</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12062_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206805686</td></row>
+		<row><td>IDS__DialogId_12066</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_10</td><td>1033</td><td>&amp;Print</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_1000_1</td><td>1033</td><td>I &amp;accept the terms of the license agreement</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_1000_2</td><td>1033</td><td>I &amp;do not accept the terms of the license agreement</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_50</td><td>1033</td><td>License Agreement [DEMO_PROJECT]</td><td>0</td><td/><td>-206825206</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_51</td><td>1033</td><td>Please read the following license agreement carefully.</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12066_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206794518</td></row>
+		<row><td>IDS__DialogId_12067</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_196</td><td>1033</td><td>&amp;Change...</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_50</td><td>1033</td><td>Choose Destination Location [DEMO_PROJECT]</td><td>0</td><td/><td>-206801942</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_51</td><td>1033</td><td>Select folder where setup will install files.</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_715</td><td>1033</td><td>c:\path\company\product\suite\version</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_718</td><td>1033</td><td>Install %P to:</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12067_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206816278</td></row>
+		<row><td>IDS__DialogId_12069</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-206773366</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_1</td><td>1033</td><td>&amp;Next &gt;</td><td>0</td><td/><td>-206773366</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_10</td><td>1033</td><td>&amp;Print</td><td>0</td><td/><td>-206771318</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_1000_1</td><td>1033</td><td>I &amp;accept the terms of the license agreement</td><td>0</td><td/><td>-206771318</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_1000_2</td><td>1033</td><td>I &amp;do not accept the terms of the license agreement</td><td>0</td><td/><td>-206771318</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-206771318</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-206773366</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-206771318</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_50</td><td>1033</td><td>License Agreement[DEMO_PROJECT]</td><td>0</td><td/><td>-206822486</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_51</td><td>1033</td><td>Please read the following license agreement carefully.</td><td>0</td><td/><td>-206771318</td></row>
+		<row><td>IDS__DialogId_12069_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>-206771318</td></row>
 		<row><td>IDS__DialogId_12070</td><td>1033</td><td>InstallShield Wizard</td><td>0</td><td/><td>-475243308</td></row>
 		<row><td>IDS__DialogId_12070_ControlId_10</td><td>1033</td><td>&amp;Print</td><td>0</td><td/><td>-475243308</td></row>
 		<row><td>IDS__DialogId_12070_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>-475243308</td></row>
 		<row><td>IDS__DialogId_12070_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>-475243308</td></row>
 		<row><td>IDS__DialogId_12070_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>-475243308</td></row>
-		<row><td>IDS__DialogId_12070_ControlId_50</td><td>1033</td><td>License Agreement</td><td>0</td><td/><td>-475243308</td></row>
+		<row><td>IDS__DialogId_12070_ControlId_50</td><td>1033</td><td>License Agreement[DEMO_PROJECT]</td><td>0</td><td/><td>-206789718</td></row>
 		<row><td>IDS__DialogId_12070_ControlId_51</td><td>1033</td><td>Please read the following license agreement carefully.</td><td>0</td><td/><td>-475243308</td></row>
 		<row><td>IDS__DialogId_12070_ControlId_6</td><td>1033</td><td>&amp;Yes</td><td>0</td><td/><td>-475243308</td></row>
 		<row><td>IDS__DialogId_12070_ControlId_711</td><td>1033</td><td>Press the PAGE DOWN key to see the rest of the agreement.</td><td>0</td><td/><td>-475243308</td></row>
@@ -898,7 +1485,7 @@
 		<row><td>IDS__NewDialog_ControlId_12</td><td>1033</td><td>&lt; &amp;Back</td><td>0</td><td/><td>278304778</td></row>
 		<row><td>IDS__NewDialog_ControlId_1200</td><td>1033</td><td>@@10552;200</td><td>0</td><td/><td>278302730</td></row>
 		<row><td>IDS__NewDialog_ControlId_2</td><td>1033</td><td>C</td><td>0</td><td/><td>278304778</td></row>
-		<row><td>IDS__NewDialog_ControlId_50</td><td>1033</td><td>EXTER THE DETAILS HERE</td><td>0</td><td/><td>-475221006</td></row>
+		<row><td>IDS__NewDialog_ControlId_50</td><td>1033</td><td>EDITION SELECTION PANEL</td><td>0</td><td/><td>-206786518</td></row>
 		<row><td>IDS__NewDialog_ControlId_51</td><td>1033</td><td>UNFILLED DETAILS NOT ALLOWED HERE</td><td>0</td><td/><td>-475243502</td></row>
 		<row><td>IDS__NewDialog_ControlId_9</td><td>1033</td><td>Cancel</td><td>0</td><td/><td>278302730</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td>ProgramFiles</td><td>0</td><td/><td>-475230191</td></row>
@@ -915,6 +1502,7 @@
 		<row><td>NEW_STRING19</td><td>1033</td><td>Country name:</td><td>0</td><td/><td>-475256683</td></row>
 		<row><td>NEW_STRING2</td><td>1033</td><td>PHONE NUMBER :</td><td>0</td><td/><td>-475241774</td></row>
 		<row><td>NEW_STRING20</td><td>1033</td><td>ALL FIELDS ARE MANDATORY</td><td>0</td><td/><td>-206809760</td></row>
+		<row><td>NEW_STRING21</td><td>1033</td><td>Welcome Pannel [Demo_Project]</td><td>0</td><td/><td>-206786967</td></row>
 		<row><td>NEW_STRING3</td><td>1033</td><td>EMAIL ID :</td><td>0</td><td/><td>-475229486</td></row>
 		<row><td>NEW_STRING4</td><td>1033</td><td>COMPANY NAME :</td><td>0</td><td/><td>-475258126</td></row>
 		<row><td>NEW_STRING5</td><td>1033</td><td/><td>0</td><td/><td>-475249774</td></row>
@@ -1016,8 +1604,8 @@
 		<col def="S0">Value</col>
 		<row><td>ActiveLanguage</td><td>1033</td></row>
 		<row><td>Comments</td><td/></row>
-		<row><td>CurrentMedia</td><td dt:dt="bin.base64" md5="bda357a34262bb9777365025e93dc2dd">
-UwBJAE4ARwBMAEUAXwBFAFgARQBfAEkATQBBAEcARQABAE0AZQBkAGkAYQA=
+		<row><td>CurrentMedia</td><td dt:dt="bin.base64" md5="d7601ea43fdc6ca1faf19ccdb166ed90">
+UgBlAGwAZQBhAHMAZQAgADEAAQBNAGUAZABpAGEA
 			</td></row>
 		<row><td>DialogSizeType</td><td>1</td></row>
 		<row><td>DoMaintenance</td><td>1</td></row>
@@ -1109,6 +1697,8 @@ UwBJAE4ARwBMAEUAXwBFAFgARQBfAEkATQBBAEcARQABAE0AZQBkAGkAYQA=
 		<row><td>IS_SQLSERVER_PASSWORD</td><td/><td/></row>
 		<row><td>IS_SQLSERVER_SERVER</td><td/><td/></row>
 		<row><td>IS_SQLSERVER_USERNAME</td><td>sa</td><td/></row>
+		<row><td>I__accept_the_terms_of_the_license_agreement</td><td>***DO_NOT_BUILD***</td><td/></row>
+		<row><td>I__accept_the_terms_of_the_license_agreement1</td><td>***DO_NOT_BUILD***</td><td/></row>
 		<row><td>Manufacturer</td><td>Desktop _Co</td><td/></row>
 		<row><td>NewProperty1</td><td>0</td><td/></row>
 		<row><td>NewProperty10</td><td>0</td><td/></row>
@@ -1127,6 +1717,7 @@ UwBJAE4ARwBMAEUAXwBFAFgARQBfAEkATQBBAEcARQABAE0AZQBkAGkAYQA=
 		<row><td>NewProperty22</td><td>0</td><td/></row>
 		<row><td>NewProperty23</td><td>0</td><td/></row>
 		<row><td>NewProperty24</td><td>0</td><td/></row>
+		<row><td>NewProperty25</td><td>0</td><td/></row>
 		<row><td>NewProperty3</td><td>0</td><td/></row>
 		<row><td>NewProperty4</td><td>0</td><td/></row>
 		<row><td>NewProperty5</td><td>0</td><td/></row>
@@ -1169,6 +1760,10 @@ UwBJAE4ARwBMAEUAXwBFAFgARQBfAEkATQBBAEcARQABAE0AZQBkAGkAYQA=
 		<row><td>ProductCode</td><td>{6BD5D6D8-3526-4B9E-952C-81D7EE671B2B}</td><td/></row>
 		<row><td>ProductName</td><td>demo_project1</td><td/></row>
 		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
+		<row><td>Typical</td><td>***DO_NOT_BUILD***</td><td/></row>
+		<row><td>_Complete</td><td>***DO_NOT_BUILD***</td><td/></row>
+		<row><td>_Complete1</td><td>***DO_NOT_BUILD***</td><td/></row>
+		<row><td>_Modify</td><td>***DO_NOT_BUILD***</td><td/></row>
 	</table>
 
 	<table name="RadioButton">
@@ -1182,6 +1777,20 @@ UwBJAE4ARwBMAEUAXwBFAFgARQBfAEkATQBBAEcARQABAE0AZQBkAGkAYQA=
 		<col def="L64">Text</col>
 		<col def="L50">Help</col>
 		<col def="I4">ISControlId</col>
+		<row><td>I__accept_the_terms_of_the_license_agreement</td><td>1</td><td>I &amp;accept the terms of the license agreement</td><td>0</td><td>0</td><td>237</td><td>17</td><td>##IDS__DialogId_12066_ControlId_1000_1##</td><td/><td>1000</td></row>
+		<row><td>I__accept_the_terms_of_the_license_agreement</td><td>2</td><td>I &amp;do not accept the terms of the license agreement</td><td>0</td><td>20</td><td>237</td><td>17</td><td>##IDS__DialogId_12066_ControlId_1000_2##</td><td/><td>1001</td></row>
+		<row><td>I__accept_the_terms_of_the_license_agreement1</td><td>1</td><td>I &amp;accept the terms of the license agreement</td><td>0</td><td>0</td><td>237</td><td>17</td><td>##IDS__DialogId_12069_ControlId_1000_1##</td><td/><td>1000</td></row>
+		<row><td>I__accept_the_terms_of_the_license_agreement1</td><td>2</td><td>I &amp;do not accept the terms of the license agreement</td><td>0</td><td>20</td><td>237</td><td>17</td><td>##IDS__DialogId_12069_ControlId_1000_2##</td><td/><td>1001</td></row>
+		<row><td>Typical</td><td>1</td><td>Typical</td><td>0</td><td>0</td><td>41</td><td>11</td><td>##IDS__DialogId_12009_ControlId_501_1##</td><td/><td>501</td></row>
+		<row><td>Typical</td><td>2</td><td>Compact</td><td>0</td><td>43</td><td>41</td><td>9</td><td>##IDS__DialogId_12009_ControlId_501_2##</td><td/><td>502</td></row>
+		<row><td>Typical</td><td>3</td><td>Custom</td><td>0</td><td>82</td><td>41</td><td>9</td><td>##IDS__DialogId_12009_ControlId_501_3##</td><td/><td>503</td></row>
+		<row><td>_Complete</td><td>1</td><td>&amp;Complete</td><td>0</td><td>0</td><td>60</td><td>11</td><td>##IDS__DialogId_12061_ControlId_504_1##</td><td/><td>504</td></row>
+		<row><td>_Complete</td><td>2</td><td>Cu&amp;stom</td><td>0</td><td>56</td><td>56</td><td>11</td><td>##IDS__DialogId_12061_ControlId_504_2##</td><td/><td>503</td></row>
+		<row><td>_Complete1</td><td>1</td><td>&amp;Complete</td><td>0</td><td>0</td><td>60</td><td>11</td><td>##IDS__DialogId_12062_ControlId_504_1##</td><td/><td>504</td></row>
+		<row><td>_Complete1</td><td>2</td><td>Cu&amp;stom</td><td>0</td><td>56</td><td>56</td><td>11</td><td>##IDS__DialogId_12062_ControlId_504_2##</td><td/><td>503</td></row>
+		<row><td>_Modify</td><td>1</td><td>&amp;Modify</td><td>0</td><td>0</td><td>113</td><td>9</td><td>##IDS__DialogId_12053_ControlId_301_1##</td><td/><td>301</td></row>
+		<row><td>_Modify</td><td>2</td><td>R&amp;epair</td><td>0</td><td>53</td><td>108</td><td>9</td><td>##IDS__DialogId_12053_ControlId_301_2##</td><td/><td>302</td></row>
+		<row><td>_Modify</td><td>3</td><td>&amp;Remove</td><td>0</td><td>104</td><td>124</td><td>9</td><td>##IDS__DialogId_12053_ControlId_301_3##</td><td/><td>303</td></row>
 	</table>
 
 	<table name="Registry">
